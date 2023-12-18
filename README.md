@@ -14,11 +14,11 @@ ratings to endure harsh environments. There are a lot of options for modules tha
 and communicate on a Modbus. The expandability of this platform makes it a good choice for
 this application because it can evolve to meet new needs in the future.
 
-interlock Folder
+interlock Folder:
   This folder contains the c++ code with file extension ".ino" for use with the Arduino IDE for
   uploading to the P1AM-100 controller.
 
-Resources Folder
+Resources Folder:
   This folder conatins a photo of the front panel of the interlock assembly, the user manual, and
   a template webpage which was used eventually used in the interlock code to display system status
   to a web interface.
