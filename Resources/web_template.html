@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi-SNICS Interlock Status Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url('https://public.magnet.fsu.edu/Logos/FSU_Seal_RGB.png');
+            background-size: 450px;
+            background-repeat: repeat-x;
+            background-position: center center;
+            text-align: center;
+            font-weight: bold;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #ddffdd;
+            background-color: #ffdddd;
+            opacity: 95%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multi-SNICS Interlock Status Display</h1>
+    <h2>Condition: normal</h2>
+    <table>
+        <tr>
+            <th>Input Conditions</th>
+            <th></th>
+            <th>Output Relays</th>
+            <th></th>
+            <th>Measurements</th>
+        </tr>
+        <tr>
+            <td class='input-condition'>Reset switch: </td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 1: OFF</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'>Tritium Detector: 1 μCi/hr</td>
+        </tr>
+        <tr>
+            <td class='input-condition'>Gate valve close switch: </td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 2: ON</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'>Vacuum Gauge: 2.06x10^-6 Torr</td>
+        </tr>
+        <tr>
+            <td class='input-condition'>Cage door contact: </td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 1: OFF</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'>Titanium Sublimation Pump: 40A</td>
+        </tr>
+        <tr>
+            <td class='input-condition'>UNUSED</td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 2: ON</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>Vacuum condition gnd potential: </td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 1: OFF</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>Tritium detector: </td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 2: ON</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>UNUSED</td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 1: OFF</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>Power failure: </td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 2: ON</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>Coolant flow at pump: </td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 1: OFF</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>Vacuum condition mid potential: </td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 2: ON</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>UNUSED</td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 1: OFF</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>Coolant flow at source: </td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 2: ON</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>Smoke detector in hood: </td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 1: OFF</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>UNUSED</td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 2: ON</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>UNUSED</td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 1: OFF</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+        <tr>
+            <td class='input-condition'>UNUSED</td>
+            <td class='input-condition'>Off</td>
+            <td class='output-relay'>Relay 2: ON</td>
+            <td class='output-relay'>CLOSED</td>
+            <td class='measurement-number'></td>
+        </tr>
+    </table>
+    <br><footer>Written by yours truly, <a href='http://www.rubberhelix.com/'>Jonah K Gibbons</a></footer>
+</body>
+</html>
